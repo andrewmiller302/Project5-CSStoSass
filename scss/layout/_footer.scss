@@ -1,0 +1,33 @@
+/*Footer
+   ========================================================================== */
+
+.contact{
+  color: $color-prim;
+  padding: 1em .5em 1em .5em;
+  margin-bottom: 3em;
+  text-align: center;
+      
+}
+
+.mobel{
+  &-footer a{
+  text-decoration: none;
+  font-weight: bold;
+  color: $color-text-title;
+  font-family: $stack-Roboto;
+  font-size: 1em;
+  }
+  &-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4em;
+  padding: 0 .5em 0 .5em;
+  }
+  
+}
+
+
+.main-footer{
+  display: none;
+}
+

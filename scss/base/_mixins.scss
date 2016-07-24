@@ -1,0 +1,26 @@
+
+@mixin flex-box($font-size, $justify-content: flex-start, $font-weight: normal, 
+$display: flex, $flex-direction: row){
+    display: $display;
+    flex-direction: $flex-direction;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    justify-content: $justify-content;
+    }
+
+@mixin r-l-margin($Rmargin, $Lmargin){
+  margin-right: $Rmargin;
+  margin-left:  $Lmargin;
+  
+}
+
+@mixin r-l-padding($Rpadding, $Lpadding){
+  padding-right: $Rpadding;
+  padding-left: $Lpadding;
+    
+}
+
+
+
+
+

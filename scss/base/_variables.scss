@@ -1,0 +1,26 @@
+
+// Descriptive color variables
+
+$white      :   white;
+$dimgray    :   dimgray;
+$darkgray   :   darkgray;
+$aliceblue  :   aliceblue;
+$black      :   black;
+
+//Functional color variables
+
+$color-prim         : $dimgray;
+$color-sec          : $darkgray;
+$color-text-title   : $black;
+$color-main-port    : $white;
+$color-body-back    : $aliceblue;
+  
+  
+  // Font stacks
+  
+  $stack-Roboto : 'Roboto', sans-serif;
+
+// Media query brakpoints
+
+$brk-narrow :'only screen and (min-width: 768px)' ;
+$brk-wide   :'only screen and (min-width: 1024px)';

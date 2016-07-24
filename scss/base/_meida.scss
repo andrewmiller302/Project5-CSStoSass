@@ -1,0 +1,215 @@
+@media #{$brk-narrow}{
+  
+  
+  /****************
+    nav
+  ******************/
+    
+  
+  .main-nav{
+    
+    @include flex-box(1em, center, bold);
+    margin-bottom: 4em;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+  .studentName {
+    
+    flex-basis: 100%;
+    
+      
+  } 
+  
+  .main-nav a {
+    padding: 0 1em;
+  }  
+  
+  /****************
+    Profile Section
+  ****************/
+      
+  .aboutMe{
+    color: $color-prim;
+    display: inline-block;
+    width: 55%;
+    font-size: 1em;
+    text-align: left;
+    padding: 0 .5em 0 .5em;
+    margin-bottom: 10em;
+    
+            
+  }
+  
+  
+  /****************
+    Profile Img
+  ****************/
+  img.profileImg{
+    max-width: 45%;
+    display: inline;
+    padding: 0px;
+    float: right;
+    
+  }
+  
+   /*Portfolio
+ ========================================================================== */
+.wraper{
+    @include r-l-margin( 6%, 6%);
+    max-width: 1119px;
+            
+  }
+  
+  .overview{
+    margin: 0;
+    padding-top: 1em;
+    
+  }
+    
+  
+  .portfolio{
+    li, img{
+    min-width: 260px;
+    max-width: 25%;
+    }
+        
+  }
+  
+  .list{
+    @include r-l-margin(1em, 1em);
+    
+  }
+  
+  
+    
+   /*Footer
+   ========================================================================== */
+  
+.mobel-footer{
+  display: none;
+    
+}
+  
+  .contactTitle{
+    color: $color-text-title;
+    padding-bottom: 1em;
+    font-size: 1em;
+  }
+  
+  .contact{
+    max-width: 70%;
+    @include r-l-margin(auto, auto);
+    margin-top: 5em;
+    font-size: 1em;
+   
+    
+  }
+  .main-footer{
+    @include flex-box(1em, flex-end, $font-weight: bold); 
+    
+            
+  }
+  
+  .main-footer a{
+    padding: 0 1em;
+    
+  }
+  
+  .footName{
+    @include flex-box(1em, $font-weight: bold); 
+    margin-right: auto;
+    align-self: center;
+      
+  }
+ 
+  
+  
+ /* Clearfix
+   ========================================================================== */
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+}
+
+@media #{$brk-wide}{
+  /****************************************************
+    Nav
+  *****************************************************/
+  
+  .main-nav{
+    
+    display: flex; 
+    flex-direction: row;
+    margin: 2em 2em 0em 2em;
+    justify-content: flex-end;
+    li{
+      align-items: center;
+      
+    }
+    
+    
+            
+  }
+  .studentName{
+    margin-right: auto;
+    flex-basis: auto;
+    padding: 0 1em;
+    
+    }
+  
+  
+  /****************
+    Profile Section
+  ****************/
+  .aboutMe{
+    @include r-l-padding(1em, 3em);
+           
+  }
+  .overview {
+    @include r-l-padding(2em, 2em);
+    font-size: 1.3em;
+                
+  }
+  
+  .portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 0 4em 0;
+  }
+  
+  /*****************************************************
+    Profile Img
+  ******************************************************/
+    
+  .overview img{
+    float: right;
+        
+  }
+  
+   
+  /*============================================================================= 
+  Footer
+   ========================================================================== */
+   
+  .contact{
+    max-width: 60%;
+      
+  }
+  
+  .main-footer{
+    margin-top: 4em;
+    margin-right: 2em;
+                
+  }
+  .footName{
+    margin-left: 2em;
+      }
+  
+  
+}

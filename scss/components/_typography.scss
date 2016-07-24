@@ -1,0 +1,28 @@
+p {
+  font-size: .85em;
+  margin-top: .5em;
+  width: inherit
+  
+}
+h1 {
+  @extend %MarginHeading;
+  font-size: 1.5em;
+  
+  
+  
+}
+h2{
+  font-size: 1em;
+  @extend %MarginHeading;
+}
+h3{
+  font-size: .85em;
+  @extend %MarginHeading;
+  width: inherit;
+  
+}
+.main-nav{
+  font-size: .8em;
+  font-weight: bold;
+  padding: 0;
+}
